@@ -1,4 +1,4 @@
-// Generated from C:/Users/yunus/Desktop/my_files/ITMO/1_st_year/1_st_semester/Programming languages/lab/antlr/src/main/antlr4/AntlrProject.g4 by ANTLR 4.13.2
+// Generated from C:/Users/yunus/Desktop/my_files/ITMO/1_st_year/1_st_semester/Programming languages/lab/ANTLR-grammar/src/main/antlr4/AntlrProject.g4 by ANTLR 4.13.2
 
 package org.example.gen;
 
@@ -254,6 +254,30 @@ public class AntlrProjectBaseListener implements AntlrProjectListener {
 	 * <p>The default implementation does nothing.</p>
 	 */
 	@Override public void exitForstmt(AntlrProjectParser.ForstmtContext ctx) { }
+	/**
+	 * {@inheritDoc}
+	 *
+	 * <p>The default implementation does nothing.</p>
+	 */
+	@Override public void enterVarDeclFor(AntlrProjectParser.VarDeclForContext ctx) { }
+	/**
+	 * {@inheritDoc}
+	 *
+	 * <p>The default implementation does nothing.</p>
+	 */
+	@Override public void exitVarDeclFor(AntlrProjectParser.VarDeclForContext ctx) { }
+	/**
+	 * {@inheritDoc}
+	 *
+	 * <p>The default implementation does nothing.</p>
+	 */
+	@Override public void enterAssignmentFor(AntlrProjectParser.AssignmentForContext ctx) { }
+	/**
+	 * {@inheritDoc}
+	 *
+	 * <p>The default implementation does nothing.</p>
+	 */
+	@Override public void exitAssignmentFor(AntlrProjectParser.AssignmentForContext ctx) { }
 	/**
 	 * {@inheritDoc}
 	 *

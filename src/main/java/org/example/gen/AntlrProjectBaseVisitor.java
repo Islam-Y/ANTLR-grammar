@@ -1,4 +1,4 @@
-// Generated from C:/Users/yunus/Desktop/my_files/ITMO/1_st_year/1_st_semester/Programming languages/lab/antlr/src/main/antlr4/AntlrProject.g4 by ANTLR 4.13.2
+// Generated from C:/Users/yunus/Desktop/my_files/ITMO/1_st_year/1_st_semester/Programming languages/lab/ANTLR-grammar/src/main/antlr4/AntlrProject.g4 by ANTLR 4.13.2
 
 package org.example.gen;
 
@@ -154,6 +154,20 @@ public class AntlrProjectBaseVisitor<T> extends AbstractParseTreeVisitor<T> impl
 	 * {@link #visitChildren} on {@code ctx}.</p>
 	 */
 	@Override public T visitForstmt(AntlrProjectParser.ForstmtContext ctx) { return visitChildren(ctx); }
+	/**
+	 * {@inheritDoc}
+	 *
+	 * <p>The default implementation returns the result of calling
+	 * {@link #visitChildren} on {@code ctx}.</p>
+	 */
+	@Override public T visitVarDeclFor(AntlrProjectParser.VarDeclForContext ctx) { return visitChildren(ctx); }
+	/**
+	 * {@inheritDoc}
+	 *
+	 * <p>The default implementation returns the result of calling
+	 * {@link #visitChildren} on {@code ctx}.</p>
+	 */
+	@Override public T visitAssignmentFor(AntlrProjectParser.AssignmentForContext ctx) { return visitChildren(ctx); }
 	/**
 	 * {@inheritDoc}
 	 *

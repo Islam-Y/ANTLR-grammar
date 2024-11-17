@@ -1,4 +1,4 @@
-// Generated from C:/Users/yunus/Desktop/my_files/ITMO/1_st_year/1_st_semester/Programming languages/lab/antlr/src/main/antlr4/AntlrProject.g4 by ANTLR 4.13.2
+// Generated from C:/Users/yunus/Desktop/my_files/ITMO/1_st_year/1_st_semester/Programming languages/lab/ANTLR-grammar/src/main/antlr4/AntlrProject.g4 by ANTLR 4.13.2
 
 package org.example.gen;
 
@@ -141,6 +141,18 @@ public interface AntlrProjectVisitor<T> extends ParseTreeVisitor<T> {
 	 * @return the visitor result
 	 */
 	T visitForstmt(AntlrProjectParser.ForstmtContext ctx);
+	/**
+	 * Visit a parse tree produced by {@link AntlrProjectParser#varDeclFor}.
+	 * @param ctx the parse tree
+	 * @return the visitor result
+	 */
+	T visitVarDeclFor(AntlrProjectParser.VarDeclForContext ctx);
+	/**
+	 * Visit a parse tree produced by {@link AntlrProjectParser#assignmentFor}.
+	 * @param ctx the parse tree
+	 * @return the visitor result
+	 */
+	T visitAssignmentFor(AntlrProjectParser.AssignmentForContext ctx);
 	/**
 	 * Visit a parse tree produced by {@link AntlrProjectParser#blockstmt}.
 	 * @param ctx the parse tree

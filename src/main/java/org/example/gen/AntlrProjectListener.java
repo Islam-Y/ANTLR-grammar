@@ -1,4 +1,4 @@
-// Generated from C:/Users/yunus/Desktop/my_files/ITMO/1_st_year/1_st_semester/Programming languages/lab/antlr/src/main/antlr4/AntlrProject.g4 by ANTLR 4.13.2
+// Generated from C:/Users/yunus/Desktop/my_files/ITMO/1_st_year/1_st_semester/Programming languages/lab/ANTLR-grammar/src/main/antlr4/AntlrProject.g4 by ANTLR 4.13.2
 
 package org.example.gen;
 
@@ -227,6 +227,26 @@ public interface AntlrProjectListener extends ParseTreeListener {
 	 * @param ctx the parse tree
 	 */
 	void exitForstmt(AntlrProjectParser.ForstmtContext ctx);
+	/**
+	 * Enter a parse tree produced by {@link AntlrProjectParser#varDeclFor}.
+	 * @param ctx the parse tree
+	 */
+	void enterVarDeclFor(AntlrProjectParser.VarDeclForContext ctx);
+	/**
+	 * Exit a parse tree produced by {@link AntlrProjectParser#varDeclFor}.
+	 * @param ctx the parse tree
+	 */
+	void exitVarDeclFor(AntlrProjectParser.VarDeclForContext ctx);
+	/**
+	 * Enter a parse tree produced by {@link AntlrProjectParser#assignmentFor}.
+	 * @param ctx the parse tree
+	 */
+	void enterAssignmentFor(AntlrProjectParser.AssignmentForContext ctx);
+	/**
+	 * Exit a parse tree produced by {@link AntlrProjectParser#assignmentFor}.
+	 * @param ctx the parse tree
+	 */
+	void exitAssignmentFor(AntlrProjectParser.AssignmentForContext ctx);
 	/**
 	 * Enter a parse tree produced by {@link AntlrProjectParser#blockstmt}.
 	 * @param ctx the parse tree
