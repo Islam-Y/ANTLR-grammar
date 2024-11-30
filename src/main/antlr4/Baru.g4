@@ -1,4 +1,4 @@
-grammar AntlrProject;
+grammar Baru;
 
 @header {
 package org.example.gen;

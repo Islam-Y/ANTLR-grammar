@@ -1,4 +1,4 @@
-// Generated from C:/Users/yunus/Desktop/my_files/ITMO/1_st_year/1_st_semester/Programming languages/lab/ANTLR-grammar/src/main/antlr4/AntlrProject.g4 by ANTLR 4.13.2
+// Generated from C:/Users/yunus/Desktop/my_files/ITMO/1_st_year/1_st_semester/Programming languages/ANTLR-grammar/src/main/antlr4/Baru.g4 by ANTLR 4.13.2
 
 package org.example.gen;
 
@@ -8,288 +8,288 @@ import org.antlr.v4.runtime.tree.ErrorNode;
 import org.antlr.v4.runtime.tree.TerminalNode;
 
 /**
- * This class provides an empty implementation of {@link AntlrProjectListener},
+ * This class provides an empty implementation of {@link BaruListener},
  * which can be extended to create a listener which only needs to handle a subset
  * of the available methods.
  */
 @SuppressWarnings("CheckReturnValue")
-public class AntlrProjectBaseListener implements AntlrProjectListener {
+public class BaruBaseListener implements BaruListener {
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void enterProgram(AntlrProjectParser.ProgramContext ctx) { }
+	@Override public void enterProgram(BaruParser.ProgramContext ctx) { }
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void exitProgram(AntlrProjectParser.ProgramContext ctx) { }
+	@Override public void exitProgram(BaruParser.ProgramContext ctx) { }
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void enterStmt(AntlrProjectParser.StmtContext ctx) { }
+	@Override public void enterStmt(BaruParser.StmtContext ctx) { }
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void exitStmt(AntlrProjectParser.StmtContext ctx) { }
+	@Override public void exitStmt(BaruParser.StmtContext ctx) { }
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void enterStringExpr(AntlrProjectParser.StringExprContext ctx) { }
+	@Override public void enterStringExpr(BaruParser.StringExprContext ctx) { }
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void exitStringExpr(AntlrProjectParser.StringExprContext ctx) { }
+	@Override public void exitStringExpr(BaruParser.StringExprContext ctx) { }
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void enterLogicalExpr(AntlrProjectParser.LogicalExprContext ctx) { }
+	@Override public void enterLogicalExpr(BaruParser.LogicalExprContext ctx) { }
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void exitLogicalExpr(AntlrProjectParser.LogicalExprContext ctx) { }
+	@Override public void exitLogicalExpr(BaruParser.LogicalExprContext ctx) { }
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void enterCompExpr(AntlrProjectParser.CompExprContext ctx) { }
+	@Override public void enterCompExpr(BaruParser.CompExprContext ctx) { }
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void exitCompExpr(AntlrProjectParser.CompExprContext ctx) { }
+	@Override public void exitCompExpr(BaruParser.CompExprContext ctx) { }
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void enterPlusMinusExpr(AntlrProjectParser.PlusMinusExprContext ctx) { }
+	@Override public void enterPlusMinusExpr(BaruParser.PlusMinusExprContext ctx) { }
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void exitPlusMinusExpr(AntlrProjectParser.PlusMinusExprContext ctx) { }
+	@Override public void exitPlusMinusExpr(BaruParser.PlusMinusExprContext ctx) { }
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void enterBoolExpr(AntlrProjectParser.BoolExprContext ctx) { }
+	@Override public void enterBoolExpr(BaruParser.BoolExprContext ctx) { }
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void exitBoolExpr(AntlrProjectParser.BoolExprContext ctx) { }
+	@Override public void exitBoolExpr(BaruParser.BoolExprContext ctx) { }
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void enterParenthesisExpr(AntlrProjectParser.ParenthesisExprContext ctx) { }
+	@Override public void enterParenthesisExpr(BaruParser.ParenthesisExprContext ctx) { }
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void exitParenthesisExpr(AntlrProjectParser.ParenthesisExprContext ctx) { }
+	@Override public void exitParenthesisExpr(BaruParser.ParenthesisExprContext ctx) { }
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void enterMulDivExpr(AntlrProjectParser.MulDivExprContext ctx) { }
+	@Override public void enterMulDivExpr(BaruParser.MulDivExprContext ctx) { }
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void exitMulDivExpr(AntlrProjectParser.MulDivExprContext ctx) { }
+	@Override public void exitMulDivExpr(BaruParser.MulDivExprContext ctx) { }
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void enterNumExpr(AntlrProjectParser.NumExprContext ctx) { }
+	@Override public void enterNumExpr(BaruParser.NumExprContext ctx) { }
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void exitNumExpr(AntlrProjectParser.NumExprContext ctx) { }
+	@Override public void exitNumExpr(BaruParser.NumExprContext ctx) { }
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void enterIdExpr(AntlrProjectParser.IdExprContext ctx) { }
+	@Override public void enterIdExpr(BaruParser.IdExprContext ctx) { }
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void exitIdExpr(AntlrProjectParser.IdExprContext ctx) { }
+	@Override public void exitIdExpr(BaruParser.IdExprContext ctx) { }
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void enterCompOperator(AntlrProjectParser.CompOperatorContext ctx) { }
+	@Override public void enterCompOperator(BaruParser.CompOperatorContext ctx) { }
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void exitCompOperator(AntlrProjectParser.CompOperatorContext ctx) { }
+	@Override public void exitCompOperator(BaruParser.CompOperatorContext ctx) { }
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void enterVarDecl(AntlrProjectParser.VarDeclContext ctx) { }
+	@Override public void enterVarDecl(BaruParser.VarDeclContext ctx) { }
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void exitVarDecl(AntlrProjectParser.VarDeclContext ctx) { }
+	@Override public void exitVarDecl(BaruParser.VarDeclContext ctx) { }
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void enterAssignment(AntlrProjectParser.AssignmentContext ctx) { }
+	@Override public void enterAssignment(BaruParser.AssignmentContext ctx) { }
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void exitAssignment(AntlrProjectParser.AssignmentContext ctx) { }
+	@Override public void exitAssignment(BaruParser.AssignmentContext ctx) { }
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void enterPrint(AntlrProjectParser.PrintContext ctx) { }
+	@Override public void enterPrint(BaruParser.PrintContext ctx) { }
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void exitPrint(AntlrProjectParser.PrintContext ctx) { }
+	@Override public void exitPrint(BaruParser.PrintContext ctx) { }
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void enterIfstmt(AntlrProjectParser.IfstmtContext ctx) { }
+	@Override public void enterIfstmt(BaruParser.IfstmtContext ctx) { }
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void exitIfstmt(AntlrProjectParser.IfstmtContext ctx) { }
+	@Override public void exitIfstmt(BaruParser.IfstmtContext ctx) { }
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void enterElifstmt(AntlrProjectParser.ElifstmtContext ctx) { }
+	@Override public void enterElifstmt(BaruParser.ElifstmtContext ctx) { }
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void exitElifstmt(AntlrProjectParser.ElifstmtContext ctx) { }
+	@Override public void exitElifstmt(BaruParser.ElifstmtContext ctx) { }
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void enterElsestmt(AntlrProjectParser.ElsestmtContext ctx) { }
+	@Override public void enterElsestmt(BaruParser.ElsestmtContext ctx) { }
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void exitElsestmt(AntlrProjectParser.ElsestmtContext ctx) { }
+	@Override public void exitElsestmt(BaruParser.ElsestmtContext ctx) { }
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void enterWhilestmt(AntlrProjectParser.WhilestmtContext ctx) { }
+	@Override public void enterWhilestmt(BaruParser.WhilestmtContext ctx) { }
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void exitWhilestmt(AntlrProjectParser.WhilestmtContext ctx) { }
+	@Override public void exitWhilestmt(BaruParser.WhilestmtContext ctx) { }
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void enterForstmt(AntlrProjectParser.ForstmtContext ctx) { }
+	@Override public void enterForstmt(BaruParser.ForstmtContext ctx) { }
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void exitForstmt(AntlrProjectParser.ForstmtContext ctx) { }
+	@Override public void exitForstmt(BaruParser.ForstmtContext ctx) { }
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void enterVarDeclFor(AntlrProjectParser.VarDeclForContext ctx) { }
+	@Override public void enterVarDeclFor(BaruParser.VarDeclForContext ctx) { }
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void exitVarDeclFor(AntlrProjectParser.VarDeclForContext ctx) { }
+	@Override public void exitVarDeclFor(BaruParser.VarDeclForContext ctx) { }
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void enterAssignmentFor(AntlrProjectParser.AssignmentForContext ctx) { }
+	@Override public void enterAssignmentFor(BaruParser.AssignmentForContext ctx) { }
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void exitAssignmentFor(AntlrProjectParser.AssignmentForContext ctx) { }
+	@Override public void exitAssignmentFor(BaruParser.AssignmentForContext ctx) { }
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void enterBlockstmt(AntlrProjectParser.BlockstmtContext ctx) { }
+	@Override public void enterBlockstmt(BaruParser.BlockstmtContext ctx) { }
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void exitBlockstmt(AntlrProjectParser.BlockstmtContext ctx) { }
+	@Override public void exitBlockstmt(BaruParser.BlockstmtContext ctx) { }
 
 	/**
 	 * {@inheritDoc}

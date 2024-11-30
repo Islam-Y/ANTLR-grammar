@@ -1,4 +1,4 @@
-// Generated from C:/Users/yunus/Desktop/my_files/ITMO/1_st_year/1_st_semester/Programming languages/lab/ANTLR-grammar/src/main/antlr4/AntlrProject.g4 by ANTLR 4.13.2
+// Generated from C:/Users/yunus/Desktop/my_files/ITMO/1_st_year/1_st_semester/Programming languages/ANTLR-grammar/src/main/antlr4/Baru.g4 by ANTLR 4.13.2
 
 package org.example.gen;
 
@@ -9,7 +9,7 @@ import org.antlr.v4.runtime.tree.*;
 import java.util.List;
 
 @SuppressWarnings({"all", "warnings", "unchecked", "unused", "cast", "CheckReturnValue", "this-escape"})
-public class AntlrProjectParser extends Parser {
+public class BaruParser extends Parser {
 	static { RuntimeMetaData.checkVersion("4.13.2", RuntimeMetaData.VERSION); }
 
 	protected static final DFA[] _decisionToDFA;
@@ -87,7 +87,7 @@ public class AntlrProjectParser extends Parser {
 	}
 
 	@Override
-	public String getGrammarFileName() { return "AntlrProject.g4"; }
+	public String getGrammarFileName() { return "Baru.g4"; }
 
 	@Override
 	public String[] getRuleNames() { return ruleNames; }
@@ -98,14 +98,14 @@ public class AntlrProjectParser extends Parser {
 	@Override
 	public ATN getATN() { return _ATN; }
 
-	public AntlrProjectParser(TokenStream input) {
+	public BaruParser(TokenStream input) {
 		super(input);
 		_interp = new ParserATNSimulator(this,_ATN,_decisionToDFA,_sharedContextCache);
 	}
 
 	@SuppressWarnings("CheckReturnValue")
 	public static class ProgramContext extends ParserRuleContext {
-		public TerminalNode EOF() { return getToken(AntlrProjectParser.EOF, 0); }
+		public TerminalNode EOF() { return getToken(BaruParser.EOF, 0); }
 		public List<StmtContext> stmt() {
 			return getRuleContexts(StmtContext.class);
 		}
@@ -118,15 +118,15 @@ public class AntlrProjectParser extends Parser {
 		@Override public int getRuleIndex() { return RULE_program; }
 		@Override
 		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof AntlrProjectListener ) ((AntlrProjectListener)listener).enterProgram(this);
+			if ( listener instanceof BaruListener ) ((BaruListener)listener).enterProgram(this);
 		}
 		@Override
 		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof AntlrProjectListener ) ((AntlrProjectListener)listener).exitProgram(this);
+			if ( listener instanceof BaruListener ) ((BaruListener)listener).exitProgram(this);
 		}
 		@Override
 		public <T> T accept(ParseTreeVisitor<? extends T> visitor) {
-			if ( visitor instanceof AntlrProjectVisitor ) return ((AntlrProjectVisitor<? extends T>)visitor).visitProgram(this);
+			if ( visitor instanceof BaruVisitor ) return ((BaruVisitor<? extends T>)visitor).visitProgram(this);
 			else return visitor.visitChildren(this);
 		}
 	}
@@ -196,15 +196,15 @@ public class AntlrProjectParser extends Parser {
 		@Override public int getRuleIndex() { return RULE_stmt; }
 		@Override
 		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof AntlrProjectListener ) ((AntlrProjectListener)listener).enterStmt(this);
+			if ( listener instanceof BaruListener ) ((BaruListener)listener).enterStmt(this);
 		}
 		@Override
 		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof AntlrProjectListener ) ((AntlrProjectListener)listener).exitStmt(this);
+			if ( listener instanceof BaruListener ) ((BaruListener)listener).exitStmt(this);
 		}
 		@Override
 		public <T> T accept(ParseTreeVisitor<? extends T> visitor) {
-			if ( visitor instanceof AntlrProjectVisitor ) return ((AntlrProjectVisitor<? extends T>)visitor).visitStmt(this);
+			if ( visitor instanceof BaruVisitor ) return ((BaruVisitor<? extends T>)visitor).visitStmt(this);
 			else return visitor.visitChildren(this);
 		}
 	}
@@ -294,19 +294,19 @@ public class AntlrProjectParser extends Parser {
 	}
 	@SuppressWarnings("CheckReturnValue")
 	public static class StringExprContext extends ExprContext {
-		public TerminalNode STRING() { return getToken(AntlrProjectParser.STRING, 0); }
+		public TerminalNode STRING() { return getToken(BaruParser.STRING, 0); }
 		public StringExprContext(ExprContext ctx) { copyFrom(ctx); }
 		@Override
 		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof AntlrProjectListener ) ((AntlrProjectListener)listener).enterStringExpr(this);
+			if ( listener instanceof BaruListener ) ((BaruListener)listener).enterStringExpr(this);
 		}
 		@Override
 		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof AntlrProjectListener ) ((AntlrProjectListener)listener).exitStringExpr(this);
+			if ( listener instanceof BaruListener ) ((BaruListener)listener).exitStringExpr(this);
 		}
 		@Override
 		public <T> T accept(ParseTreeVisitor<? extends T> visitor) {
-			if ( visitor instanceof AntlrProjectVisitor ) return ((AntlrProjectVisitor<? extends T>)visitor).visitStringExpr(this);
+			if ( visitor instanceof BaruVisitor ) return ((BaruVisitor<? extends T>)visitor).visitStringExpr(this);
 			else return visitor.visitChildren(this);
 		}
 	}
@@ -321,20 +321,20 @@ public class AntlrProjectParser extends Parser {
 		public ExprContext expr(int i) {
 			return getRuleContext(ExprContext.class,i);
 		}
-		public TerminalNode AND() { return getToken(AntlrProjectParser.AND, 0); }
-		public TerminalNode OR() { return getToken(AntlrProjectParser.OR, 0); }
+		public TerminalNode AND() { return getToken(BaruParser.AND, 0); }
+		public TerminalNode OR() { return getToken(BaruParser.OR, 0); }
 		public LogicalExprContext(ExprContext ctx) { copyFrom(ctx); }
 		@Override
 		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof AntlrProjectListener ) ((AntlrProjectListener)listener).enterLogicalExpr(this);
+			if ( listener instanceof BaruListener ) ((BaruListener)listener).enterLogicalExpr(this);
 		}
 		@Override
 		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof AntlrProjectListener ) ((AntlrProjectListener)listener).exitLogicalExpr(this);
+			if ( listener instanceof BaruListener ) ((BaruListener)listener).exitLogicalExpr(this);
 		}
 		@Override
 		public <T> T accept(ParseTreeVisitor<? extends T> visitor) {
-			if ( visitor instanceof AntlrProjectVisitor ) return ((AntlrProjectVisitor<? extends T>)visitor).visitLogicalExpr(this);
+			if ( visitor instanceof BaruVisitor ) return ((BaruVisitor<? extends T>)visitor).visitLogicalExpr(this);
 			else return visitor.visitChildren(this);
 		}
 	}
@@ -354,15 +354,15 @@ public class AntlrProjectParser extends Parser {
 		public CompExprContext(ExprContext ctx) { copyFrom(ctx); }
 		@Override
 		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof AntlrProjectListener ) ((AntlrProjectListener)listener).enterCompExpr(this);
+			if ( listener instanceof BaruListener ) ((BaruListener)listener).enterCompExpr(this);
 		}
 		@Override
 		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof AntlrProjectListener ) ((AntlrProjectListener)listener).exitCompExpr(this);
+			if ( listener instanceof BaruListener ) ((BaruListener)listener).exitCompExpr(this);
 		}
 		@Override
 		public <T> T accept(ParseTreeVisitor<? extends T> visitor) {
-			if ( visitor instanceof AntlrProjectVisitor ) return ((AntlrProjectVisitor<? extends T>)visitor).visitCompExpr(this);
+			if ( visitor instanceof BaruVisitor ) return ((BaruVisitor<? extends T>)visitor).visitCompExpr(this);
 			else return visitor.visitChildren(this);
 		}
 	}
@@ -377,38 +377,38 @@ public class AntlrProjectParser extends Parser {
 		public ExprContext expr(int i) {
 			return getRuleContext(ExprContext.class,i);
 		}
-		public TerminalNode PLUS() { return getToken(AntlrProjectParser.PLUS, 0); }
-		public TerminalNode MINUS() { return getToken(AntlrProjectParser.MINUS, 0); }
+		public TerminalNode PLUS() { return getToken(BaruParser.PLUS, 0); }
+		public TerminalNode MINUS() { return getToken(BaruParser.MINUS, 0); }
 		public PlusMinusExprContext(ExprContext ctx) { copyFrom(ctx); }
 		@Override
 		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof AntlrProjectListener ) ((AntlrProjectListener)listener).enterPlusMinusExpr(this);
+			if ( listener instanceof BaruListener ) ((BaruListener)listener).enterPlusMinusExpr(this);
 		}
 		@Override
 		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof AntlrProjectListener ) ((AntlrProjectListener)listener).exitPlusMinusExpr(this);
+			if ( listener instanceof BaruListener ) ((BaruListener)listener).exitPlusMinusExpr(this);
 		}
 		@Override
 		public <T> T accept(ParseTreeVisitor<? extends T> visitor) {
-			if ( visitor instanceof AntlrProjectVisitor ) return ((AntlrProjectVisitor<? extends T>)visitor).visitPlusMinusExpr(this);
+			if ( visitor instanceof BaruVisitor ) return ((BaruVisitor<? extends T>)visitor).visitPlusMinusExpr(this);
 			else return visitor.visitChildren(this);
 		}
 	}
 	@SuppressWarnings("CheckReturnValue")
 	public static class BoolExprContext extends ExprContext {
-		public TerminalNode BOOL() { return getToken(AntlrProjectParser.BOOL, 0); }
+		public TerminalNode BOOL() { return getToken(BaruParser.BOOL, 0); }
 		public BoolExprContext(ExprContext ctx) { copyFrom(ctx); }
 		@Override
 		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof AntlrProjectListener ) ((AntlrProjectListener)listener).enterBoolExpr(this);
+			if ( listener instanceof BaruListener ) ((BaruListener)listener).enterBoolExpr(this);
 		}
 		@Override
 		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof AntlrProjectListener ) ((AntlrProjectListener)listener).exitBoolExpr(this);
+			if ( listener instanceof BaruListener ) ((BaruListener)listener).exitBoolExpr(this);
 		}
 		@Override
 		public <T> T accept(ParseTreeVisitor<? extends T> visitor) {
-			if ( visitor instanceof AntlrProjectVisitor ) return ((AntlrProjectVisitor<? extends T>)visitor).visitBoolExpr(this);
+			if ( visitor instanceof BaruVisitor ) return ((BaruVisitor<? extends T>)visitor).visitBoolExpr(this);
 			else return visitor.visitChildren(this);
 		}
 	}
@@ -420,15 +420,15 @@ public class AntlrProjectParser extends Parser {
 		public ParenthesisExprContext(ExprContext ctx) { copyFrom(ctx); }
 		@Override
 		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof AntlrProjectListener ) ((AntlrProjectListener)listener).enterParenthesisExpr(this);
+			if ( listener instanceof BaruListener ) ((BaruListener)listener).enterParenthesisExpr(this);
 		}
 		@Override
 		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof AntlrProjectListener ) ((AntlrProjectListener)listener).exitParenthesisExpr(this);
+			if ( listener instanceof BaruListener ) ((BaruListener)listener).exitParenthesisExpr(this);
 		}
 		@Override
 		public <T> T accept(ParseTreeVisitor<? extends T> visitor) {
-			if ( visitor instanceof AntlrProjectVisitor ) return ((AntlrProjectVisitor<? extends T>)visitor).visitParenthesisExpr(this);
+			if ( visitor instanceof BaruVisitor ) return ((BaruVisitor<? extends T>)visitor).visitParenthesisExpr(this);
 			else return visitor.visitChildren(this);
 		}
 	}
@@ -443,56 +443,56 @@ public class AntlrProjectParser extends Parser {
 		public ExprContext expr(int i) {
 			return getRuleContext(ExprContext.class,i);
 		}
-		public TerminalNode ASTERISK() { return getToken(AntlrProjectParser.ASTERISK, 0); }
-		public TerminalNode SLASH() { return getToken(AntlrProjectParser.SLASH, 0); }
+		public TerminalNode ASTERISK() { return getToken(BaruParser.ASTERISK, 0); }
+		public TerminalNode SLASH() { return getToken(BaruParser.SLASH, 0); }
 		public MulDivExprContext(ExprContext ctx) { copyFrom(ctx); }
 		@Override
 		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof AntlrProjectListener ) ((AntlrProjectListener)listener).enterMulDivExpr(this);
+			if ( listener instanceof BaruListener ) ((BaruListener)listener).enterMulDivExpr(this);
 		}
 		@Override
 		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof AntlrProjectListener ) ((AntlrProjectListener)listener).exitMulDivExpr(this);
+			if ( listener instanceof BaruListener ) ((BaruListener)listener).exitMulDivExpr(this);
 		}
 		@Override
 		public <T> T accept(ParseTreeVisitor<? extends T> visitor) {
-			if ( visitor instanceof AntlrProjectVisitor ) return ((AntlrProjectVisitor<? extends T>)visitor).visitMulDivExpr(this);
+			if ( visitor instanceof BaruVisitor ) return ((BaruVisitor<? extends T>)visitor).visitMulDivExpr(this);
 			else return visitor.visitChildren(this);
 		}
 	}
 	@SuppressWarnings("CheckReturnValue")
 	public static class NumExprContext extends ExprContext {
-		public TerminalNode NUM() { return getToken(AntlrProjectParser.NUM, 0); }
+		public TerminalNode NUM() { return getToken(BaruParser.NUM, 0); }
 		public NumExprContext(ExprContext ctx) { copyFrom(ctx); }
 		@Override
 		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof AntlrProjectListener ) ((AntlrProjectListener)listener).enterNumExpr(this);
+			if ( listener instanceof BaruListener ) ((BaruListener)listener).enterNumExpr(this);
 		}
 		@Override
 		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof AntlrProjectListener ) ((AntlrProjectListener)listener).exitNumExpr(this);
+			if ( listener instanceof BaruListener ) ((BaruListener)listener).exitNumExpr(this);
 		}
 		@Override
 		public <T> T accept(ParseTreeVisitor<? extends T> visitor) {
-			if ( visitor instanceof AntlrProjectVisitor ) return ((AntlrProjectVisitor<? extends T>)visitor).visitNumExpr(this);
+			if ( visitor instanceof BaruVisitor ) return ((BaruVisitor<? extends T>)visitor).visitNumExpr(this);
 			else return visitor.visitChildren(this);
 		}
 	}
 	@SuppressWarnings("CheckReturnValue")
 	public static class IdExprContext extends ExprContext {
-		public TerminalNode ID() { return getToken(AntlrProjectParser.ID, 0); }
+		public TerminalNode ID() { return getToken(BaruParser.ID, 0); }
 		public IdExprContext(ExprContext ctx) { copyFrom(ctx); }
 		@Override
 		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof AntlrProjectListener ) ((AntlrProjectListener)listener).enterIdExpr(this);
+			if ( listener instanceof BaruListener ) ((BaruListener)listener).enterIdExpr(this);
 		}
 		@Override
 		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof AntlrProjectListener ) ((AntlrProjectListener)listener).exitIdExpr(this);
+			if ( listener instanceof BaruListener ) ((BaruListener)listener).exitIdExpr(this);
 		}
 		@Override
 		public <T> T accept(ParseTreeVisitor<? extends T> visitor) {
-			if ( visitor instanceof AntlrProjectVisitor ) return ((AntlrProjectVisitor<? extends T>)visitor).visitIdExpr(this);
+			if ( visitor instanceof BaruVisitor ) return ((BaruVisitor<? extends T>)visitor).visitIdExpr(this);
 			else return visitor.visitChildren(this);
 		}
 	}
@@ -683,27 +683,27 @@ public class AntlrProjectParser extends Parser {
 	@SuppressWarnings("CheckReturnValue")
 	public static class CompOperatorContext extends ParserRuleContext {
 		public Token op;
-		public TerminalNode LESS() { return getToken(AntlrProjectParser.LESS, 0); }
-		public TerminalNode LESS_OR_EQUAL() { return getToken(AntlrProjectParser.LESS_OR_EQUAL, 0); }
-		public TerminalNode EQUAL() { return getToken(AntlrProjectParser.EQUAL, 0); }
-		public TerminalNode NOT_EQUAL() { return getToken(AntlrProjectParser.NOT_EQUAL, 0); }
-		public TerminalNode GREATER() { return getToken(AntlrProjectParser.GREATER, 0); }
-		public TerminalNode GREATER_OR_EQUAL() { return getToken(AntlrProjectParser.GREATER_OR_EQUAL, 0); }
+		public TerminalNode LESS() { return getToken(BaruParser.LESS, 0); }
+		public TerminalNode LESS_OR_EQUAL() { return getToken(BaruParser.LESS_OR_EQUAL, 0); }
+		public TerminalNode EQUAL() { return getToken(BaruParser.EQUAL, 0); }
+		public TerminalNode NOT_EQUAL() { return getToken(BaruParser.NOT_EQUAL, 0); }
+		public TerminalNode GREATER() { return getToken(BaruParser.GREATER, 0); }
+		public TerminalNode GREATER_OR_EQUAL() { return getToken(BaruParser.GREATER_OR_EQUAL, 0); }
 		public CompOperatorContext(ParserRuleContext parent, int invokingState) {
 			super(parent, invokingState);
 		}
 		@Override public int getRuleIndex() { return RULE_compOperator; }
 		@Override
 		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof AntlrProjectListener ) ((AntlrProjectListener)listener).enterCompOperator(this);
+			if ( listener instanceof BaruListener ) ((BaruListener)listener).enterCompOperator(this);
 		}
 		@Override
 		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof AntlrProjectListener ) ((AntlrProjectListener)listener).exitCompOperator(this);
+			if ( listener instanceof BaruListener ) ((BaruListener)listener).exitCompOperator(this);
 		}
 		@Override
 		public <T> T accept(ParseTreeVisitor<? extends T> visitor) {
-			if ( visitor instanceof AntlrProjectVisitor ) return ((AntlrProjectVisitor<? extends T>)visitor).visitCompOperator(this);
+			if ( visitor instanceof BaruVisitor ) return ((BaruVisitor<? extends T>)visitor).visitCompOperator(this);
 			else return visitor.visitChildren(this);
 		}
 	}
@@ -741,7 +741,7 @@ public class AntlrProjectParser extends Parser {
 
 	@SuppressWarnings("CheckReturnValue")
 	public static class VarDeclContext extends ParserRuleContext {
-		public TerminalNode ID() { return getToken(AntlrProjectParser.ID, 0); }
+		public TerminalNode ID() { return getToken(BaruParser.ID, 0); }
 		public ExprContext expr() {
 			return getRuleContext(ExprContext.class,0);
 		}
@@ -751,15 +751,15 @@ public class AntlrProjectParser extends Parser {
 		@Override public int getRuleIndex() { return RULE_varDecl; }
 		@Override
 		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof AntlrProjectListener ) ((AntlrProjectListener)listener).enterVarDecl(this);
+			if ( listener instanceof BaruListener ) ((BaruListener)listener).enterVarDecl(this);
 		}
 		@Override
 		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof AntlrProjectListener ) ((AntlrProjectListener)listener).exitVarDecl(this);
+			if ( listener instanceof BaruListener ) ((BaruListener)listener).exitVarDecl(this);
 		}
 		@Override
 		public <T> T accept(ParseTreeVisitor<? extends T> visitor) {
-			if ( visitor instanceof AntlrProjectVisitor ) return ((AntlrProjectVisitor<? extends T>)visitor).visitVarDecl(this);
+			if ( visitor instanceof BaruVisitor ) return ((BaruVisitor<? extends T>)visitor).visitVarDecl(this);
 			else return visitor.visitChildren(this);
 		}
 	}
@@ -804,7 +804,7 @@ public class AntlrProjectParser extends Parser {
 
 	@SuppressWarnings("CheckReturnValue")
 	public static class AssignmentContext extends ParserRuleContext {
-		public TerminalNode ID() { return getToken(AntlrProjectParser.ID, 0); }
+		public TerminalNode ID() { return getToken(BaruParser.ID, 0); }
 		public ExprContext expr() {
 			return getRuleContext(ExprContext.class,0);
 		}
@@ -814,15 +814,15 @@ public class AntlrProjectParser extends Parser {
 		@Override public int getRuleIndex() { return RULE_assignment; }
 		@Override
 		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof AntlrProjectListener ) ((AntlrProjectListener)listener).enterAssignment(this);
+			if ( listener instanceof BaruListener ) ((BaruListener)listener).enterAssignment(this);
 		}
 		@Override
 		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof AntlrProjectListener ) ((AntlrProjectListener)listener).exitAssignment(this);
+			if ( listener instanceof BaruListener ) ((BaruListener)listener).exitAssignment(this);
 		}
 		@Override
 		public <T> T accept(ParseTreeVisitor<? extends T> visitor) {
-			if ( visitor instanceof AntlrProjectVisitor ) return ((AntlrProjectVisitor<? extends T>)visitor).visitAssignment(this);
+			if ( visitor instanceof BaruVisitor ) return ((BaruVisitor<? extends T>)visitor).visitAssignment(this);
 			else return visitor.visitChildren(this);
 		}
 	}
@@ -865,15 +865,15 @@ public class AntlrProjectParser extends Parser {
 		@Override public int getRuleIndex() { return RULE_print; }
 		@Override
 		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof AntlrProjectListener ) ((AntlrProjectListener)listener).enterPrint(this);
+			if ( listener instanceof BaruListener ) ((BaruListener)listener).enterPrint(this);
 		}
 		@Override
 		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof AntlrProjectListener ) ((AntlrProjectListener)listener).exitPrint(this);
+			if ( listener instanceof BaruListener ) ((BaruListener)listener).exitPrint(this);
 		}
 		@Override
 		public <T> T accept(ParseTreeVisitor<? extends T> visitor) {
-			if ( visitor instanceof AntlrProjectVisitor ) return ((AntlrProjectVisitor<? extends T>)visitor).visitPrint(this);
+			if ( visitor instanceof BaruVisitor ) return ((BaruVisitor<? extends T>)visitor).visitPrint(this);
 			else return visitor.visitChildren(this);
 		}
 	}
@@ -930,15 +930,15 @@ public class AntlrProjectParser extends Parser {
 		@Override public int getRuleIndex() { return RULE_ifstmt; }
 		@Override
 		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof AntlrProjectListener ) ((AntlrProjectListener)listener).enterIfstmt(this);
+			if ( listener instanceof BaruListener ) ((BaruListener)listener).enterIfstmt(this);
 		}
 		@Override
 		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof AntlrProjectListener ) ((AntlrProjectListener)listener).exitIfstmt(this);
+			if ( listener instanceof BaruListener ) ((BaruListener)listener).exitIfstmt(this);
 		}
 		@Override
 		public <T> T accept(ParseTreeVisitor<? extends T> visitor) {
-			if ( visitor instanceof AntlrProjectVisitor ) return ((AntlrProjectVisitor<? extends T>)visitor).visitIfstmt(this);
+			if ( visitor instanceof BaruVisitor ) return ((BaruVisitor<? extends T>)visitor).visitIfstmt(this);
 			else return visitor.visitChildren(this);
 		}
 	}
@@ -1013,15 +1013,15 @@ public class AntlrProjectParser extends Parser {
 		@Override public int getRuleIndex() { return RULE_elifstmt; }
 		@Override
 		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof AntlrProjectListener ) ((AntlrProjectListener)listener).enterElifstmt(this);
+			if ( listener instanceof BaruListener ) ((BaruListener)listener).enterElifstmt(this);
 		}
 		@Override
 		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof AntlrProjectListener ) ((AntlrProjectListener)listener).exitElifstmt(this);
+			if ( listener instanceof BaruListener ) ((BaruListener)listener).exitElifstmt(this);
 		}
 		@Override
 		public <T> T accept(ParseTreeVisitor<? extends T> visitor) {
-			if ( visitor instanceof AntlrProjectVisitor ) return ((AntlrProjectVisitor<? extends T>)visitor).visitElifstmt(this);
+			if ( visitor instanceof BaruVisitor ) return ((BaruVisitor<? extends T>)visitor).visitElifstmt(this);
 			else return visitor.visitChildren(this);
 		}
 	}
@@ -1066,15 +1066,15 @@ public class AntlrProjectParser extends Parser {
 		@Override public int getRuleIndex() { return RULE_elsestmt; }
 		@Override
 		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof AntlrProjectListener ) ((AntlrProjectListener)listener).enterElsestmt(this);
+			if ( listener instanceof BaruListener ) ((BaruListener)listener).enterElsestmt(this);
 		}
 		@Override
 		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof AntlrProjectListener ) ((AntlrProjectListener)listener).exitElsestmt(this);
+			if ( listener instanceof BaruListener ) ((BaruListener)listener).exitElsestmt(this);
 		}
 		@Override
 		public <T> T accept(ParseTreeVisitor<? extends T> visitor) {
-			if ( visitor instanceof AntlrProjectVisitor ) return ((AntlrProjectVisitor<? extends T>)visitor).visitElsestmt(this);
+			if ( visitor instanceof BaruVisitor ) return ((BaruVisitor<? extends T>)visitor).visitElsestmt(this);
 			else return visitor.visitChildren(this);
 		}
 	}
@@ -1116,15 +1116,15 @@ public class AntlrProjectParser extends Parser {
 		@Override public int getRuleIndex() { return RULE_whilestmt; }
 		@Override
 		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof AntlrProjectListener ) ((AntlrProjectListener)listener).enterWhilestmt(this);
+			if ( listener instanceof BaruListener ) ((BaruListener)listener).enterWhilestmt(this);
 		}
 		@Override
 		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof AntlrProjectListener ) ((AntlrProjectListener)listener).exitWhilestmt(this);
+			if ( listener instanceof BaruListener ) ((BaruListener)listener).exitWhilestmt(this);
 		}
 		@Override
 		public <T> T accept(ParseTreeVisitor<? extends T> visitor) {
-			if ( visitor instanceof AntlrProjectVisitor ) return ((AntlrProjectVisitor<? extends T>)visitor).visitWhilestmt(this);
+			if ( visitor instanceof BaruVisitor ) return ((BaruVisitor<? extends T>)visitor).visitWhilestmt(this);
 			else return visitor.visitChildren(this);
 		}
 	}
@@ -1181,15 +1181,15 @@ public class AntlrProjectParser extends Parser {
 		@Override public int getRuleIndex() { return RULE_forstmt; }
 		@Override
 		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof AntlrProjectListener ) ((AntlrProjectListener)listener).enterForstmt(this);
+			if ( listener instanceof BaruListener ) ((BaruListener)listener).enterForstmt(this);
 		}
 		@Override
 		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof AntlrProjectListener ) ((AntlrProjectListener)listener).exitForstmt(this);
+			if ( listener instanceof BaruListener ) ((BaruListener)listener).exitForstmt(this);
 		}
 		@Override
 		public <T> T accept(ParseTreeVisitor<? extends T> visitor) {
-			if ( visitor instanceof AntlrProjectVisitor ) return ((AntlrProjectVisitor<? extends T>)visitor).visitForstmt(this);
+			if ( visitor instanceof BaruVisitor ) return ((BaruVisitor<? extends T>)visitor).visitForstmt(this);
 			else return visitor.visitChildren(this);
 		}
 	}
@@ -1268,7 +1268,7 @@ public class AntlrProjectParser extends Parser {
 
 	@SuppressWarnings("CheckReturnValue")
 	public static class VarDeclForContext extends ParserRuleContext {
-		public TerminalNode ID() { return getToken(AntlrProjectParser.ID, 0); }
+		public TerminalNode ID() { return getToken(BaruParser.ID, 0); }
 		public ExprContext expr() {
 			return getRuleContext(ExprContext.class,0);
 		}
@@ -1278,15 +1278,15 @@ public class AntlrProjectParser extends Parser {
 		@Override public int getRuleIndex() { return RULE_varDeclFor; }
 		@Override
 		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof AntlrProjectListener ) ((AntlrProjectListener)listener).enterVarDeclFor(this);
+			if ( listener instanceof BaruListener ) ((BaruListener)listener).enterVarDeclFor(this);
 		}
 		@Override
 		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof AntlrProjectListener ) ((AntlrProjectListener)listener).exitVarDeclFor(this);
+			if ( listener instanceof BaruListener ) ((BaruListener)listener).exitVarDeclFor(this);
 		}
 		@Override
 		public <T> T accept(ParseTreeVisitor<? extends T> visitor) {
-			if ( visitor instanceof AntlrProjectVisitor ) return ((AntlrProjectVisitor<? extends T>)visitor).visitVarDeclFor(this);
+			if ( visitor instanceof BaruVisitor ) return ((BaruVisitor<? extends T>)visitor).visitVarDeclFor(this);
 			else return visitor.visitChildren(this);
 		}
 	}
@@ -1329,7 +1329,7 @@ public class AntlrProjectParser extends Parser {
 
 	@SuppressWarnings("CheckReturnValue")
 	public static class AssignmentForContext extends ParserRuleContext {
-		public TerminalNode ID() { return getToken(AntlrProjectParser.ID, 0); }
+		public TerminalNode ID() { return getToken(BaruParser.ID, 0); }
 		public ExprContext expr() {
 			return getRuleContext(ExprContext.class,0);
 		}
@@ -1339,15 +1339,15 @@ public class AntlrProjectParser extends Parser {
 		@Override public int getRuleIndex() { return RULE_assignmentFor; }
 		@Override
 		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof AntlrProjectListener ) ((AntlrProjectListener)listener).enterAssignmentFor(this);
+			if ( listener instanceof BaruListener ) ((BaruListener)listener).enterAssignmentFor(this);
 		}
 		@Override
 		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof AntlrProjectListener ) ((AntlrProjectListener)listener).exitAssignmentFor(this);
+			if ( listener instanceof BaruListener ) ((BaruListener)listener).exitAssignmentFor(this);
 		}
 		@Override
 		public <T> T accept(ParseTreeVisitor<? extends T> visitor) {
-			if ( visitor instanceof AntlrProjectVisitor ) return ((AntlrProjectVisitor<? extends T>)visitor).visitAssignmentFor(this);
+			if ( visitor instanceof BaruVisitor ) return ((BaruVisitor<? extends T>)visitor).visitAssignmentFor(this);
 			else return visitor.visitChildren(this);
 		}
 	}
@@ -1391,15 +1391,15 @@ public class AntlrProjectParser extends Parser {
 		@Override public int getRuleIndex() { return RULE_blockstmt; }
 		@Override
 		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof AntlrProjectListener ) ((AntlrProjectListener)listener).enterBlockstmt(this);
+			if ( listener instanceof BaruListener ) ((BaruListener)listener).enterBlockstmt(this);
 		}
 		@Override
 		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof AntlrProjectListener ) ((AntlrProjectListener)listener).exitBlockstmt(this);
+			if ( listener instanceof BaruListener ) ((BaruListener)listener).exitBlockstmt(this);
 		}
 		@Override
 		public <T> T accept(ParseTreeVisitor<? extends T> visitor) {
-			if ( visitor instanceof AntlrProjectVisitor ) return ((AntlrProjectVisitor<? extends T>)visitor).visitBlockstmt(this);
+			if ( visitor instanceof BaruVisitor ) return ((BaruVisitor<? extends T>)visitor).visitBlockstmt(this);
 			else return visitor.visitChildren(this);
 		}
 	}

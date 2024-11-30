@@ -1,4 +1,4 @@
-// Generated from C:/Users/yunus/Desktop/my_files/ITMO/1_st_year/1_st_semester/Programming languages/lab/ANTLR-grammar/src/main/antlr4/AntlrProject.g4 by ANTLR 4.13.2
+// Generated from C:/Users/yunus/Desktop/my_files/ITMO/1_st_year/1_st_semester/Programming languages/ANTLR-grammar/src/main/antlr4/Baru.g4 by ANTLR 4.13.2
 
 package org.example.gen;
 
@@ -9,7 +9,7 @@ import org.antlr.v4.runtime.atn.*;
 import org.antlr.v4.runtime.dfa.DFA;
 
 @SuppressWarnings({"all", "warnings", "unchecked", "unused", "cast", "CheckReturnValue", "this-escape"})
-public class AntlrProjectLexer extends Lexer {
+public class BaruLexer extends Lexer {
 	static { RuntimeMetaData.checkVersion("4.13.2", RuntimeMetaData.VERSION); }
 
 	protected static final DFA[] _decisionToDFA;
@@ -91,13 +91,13 @@ public class AntlrProjectLexer extends Lexer {
 	}
 
 
-	public AntlrProjectLexer(CharStream input) {
+	public BaruLexer(CharStream input) {
 		super(input);
 		_interp = new LexerATNSimulator(this,_ATN,_decisionToDFA,_sharedContextCache);
 	}
 
 	@Override
-	public String getGrammarFileName() { return "AntlrProject.g4"; }
+	public String getGrammarFileName() { return "Baru.g4"; }
 
 	@Override
 	public String[] getRuleNames() { return ruleNames; }

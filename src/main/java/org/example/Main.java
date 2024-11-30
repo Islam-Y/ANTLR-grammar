@@ -3,8 +3,8 @@ package org.example;
 import org.antlr.v4.runtime.CharStreams;
 import org.antlr.v4.runtime.CommonTokenStream;
 import org.antlr.v4.runtime.tree.ParseTree;
-import org.example.gen.AntlrProjectLexer;
-import org.example.gen.AntlrProjectParser;
+import org.example.gen.BaruLexer;
+import org.example.gen.BaruParser;
 
 public class Main {
     public static void main(String[] args) {
@@ -33,9 +33,9 @@ public class Main {
                 }
 
                 """;
-        AntlrProjectLexer lexer = new AntlrProjectLexer(CharStreams.fromString(code));
+        BaruLexer lexer = new BaruLexer(CharStreams.fromString(code));
         CommonTokenStream tokens = new CommonTokenStream(lexer);
-        AntlrProjectParser parser = new AntlrProjectParser(tokens);
+        BaruParser parser = new BaruParser(tokens);
         ParseTree tree = parser.program();
         System.out.println(tree.toStringTree(parser));
 
