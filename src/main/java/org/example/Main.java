@@ -3,7 +3,6 @@ package org.example;
 import org.antlr.v4.runtime.CharStream;
 import org.antlr.v4.runtime.CharStreams;
 import org.antlr.v4.runtime.CommonTokenStream;
-import org.antlr.v4.runtime.tree.ParseTree;
 import org.example.gen.BaruLexer;
 import org.example.gen.BaruParser;
 import org.example.gen.CodeGeneratorVisitor;
@@ -13,8 +12,10 @@ public class Main {
         String code = """
                 var x = 10;
                 var y = 20;
-                var result;
-
+                var result = 0;
+                var bool = true;
+                var string = "string";
+                
                 if (x < y) {
                     result = x + y;
                 } elif (x == y) {
@@ -44,7 +45,7 @@ public class Main {
         // Создаем CharStream
         CharStream input = CharStreams.fromString(code);
 
-        // Создаем лексер и токенизируем входные данные
+
         BaruLexer lexer = new BaruLexer(input);
         CommonTokenStream tokens = new CommonTokenStream(lexer);
 
